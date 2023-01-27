@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Al's Neat Site</title>
+    </head>
+    <body style='background-color:white'>
+        <center>
+            <!-- Source 11 -->
+            <h1 style='color:green'>Upload a file!</h1>
+            <!-- Sources 18, 19, 29 -->
+            <form id="upload_form">
+                <input type="file" id="file" name="file"/>
+                <button type="submit">Upload</button>
+            </form>
+        </center>
+        </p>
+        <script>
+            <!-- Sources 18, 19, 20 -->
+            const my_form = document.getElementById("upload_form");
+            const user_file = document.getElementById("file");
+
+            my_form.addEventListener("submit", e => {
+                e.preventDefault();
+
+                const endpoint = "/upload";
+                const form_data = new FormData();
+
+                form_data.append("user_file", user_file.files[0]);
+
+                fetch(endpoint, {
+                    method: "POST",
+                    body: form_data,
+                })
+                .then(data => console.log(data))
+                .catch(err => console.log(err));
+            })
+        </script>
+    </body>
+</html>

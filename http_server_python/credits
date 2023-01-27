@@ -1,0 +1,41 @@
+Credits:
+
+CREATING HTTP SERVER:
+1. https://pythonbasics.org/webserver/
+2. https://docs.python.org/3/library/http.server.html
+3. https://www.youtube.com/watch?v=hFNZ6kdBgO0
+4. https://www.youtube.com/watch?v=DeFST8tvtuI&t=193s
+
+SSL / HTTPS:
+5. https://www.youtube.com/watch?v=005cZQum67g
+6. https://stackoverflow.com/questions/19705785/python-3-simple-https-server
+7. https://stackoverflow.com/questions/22429648/ssl-in-python3-with-httpserver
+8. https://rietta.com/blog/openssl-generating-rsa-key-from-command/
+9. https://serverfault.com/questions/366372/is-it-possible-to-generate-rsa-key-without-pass-phrase
+
+CERTBOT / LETSENCRYPT:
+10. https://certbot.eff.org/
+
+HTML:
+11. https://www.tutorialspoint.com/How-to-set-background-color-in-HTML
+
+JSON:
+12. https://jsonplaceholder.typicode.com/users
+13. https://requests.readthedocs.io/en/latest/
+
+PYTHON / JSON TO OBJECT / OBJECT ATTRIBUTES AS STRINGS
+14. https://www.youtube.com/watch?v=hJ2HfejqppE
+15. https://stackoverflow.com/questions/192109/is-there-a-built-in-function-to-print-all-the-current-properties-and-values-of-a
+
+UBUNTU FIREWALL
+16. https://www.cyberciti.biz/faq/how-to-configure-firewall-with-ufw-on-ubuntu-20-04-lts/
+
+UBUNTU, RUN HTTP SERVER ON STARTUP (Non-Docker)
+17. https://medium.com/codex/setup-a-python-script-as-a-service-through-systemctl-systemd-f0cc55a42267
+
+UPLOAD FILES TO SERVER (HTML/JAVASCRIPT)
+18. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file
+19. https://www.youtube.com/watch?v=vBCU2Upno0c
+20. https://www.youtube.com/watch?v=e13T3O0Iyvc&t=322s
+21. https://www.youtube.com/watch?v=cei2Ch683q0&t=440s
+22. https://phpdelusions.net/articles/paths
