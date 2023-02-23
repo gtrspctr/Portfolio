@@ -6,6 +6,13 @@ views = Blueprint(__name__, "views")
 def home():
     return render_template("index.html")
 
+@views.route("/")
+@views.route("/<first>")
+@views.route("/<first>/<path:rest>")
+def unknown(first=None, rest=None):
+    return render_template("unknown.html")
+
+"""
 @views.route("/profile")
 def profile():
     args = request.args
@@ -24,3 +31,4 @@ def get_data():
 @views.route("/go-home")
 def go_home():
     return redirect(url_for("views.home"))
+"""
